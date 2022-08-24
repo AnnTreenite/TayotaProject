@@ -4,28 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be59bf91-7983-4bbe-8f86-fa32532f2cf6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tayota project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Car/Details/Detail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Car/Details/DetailWithBrokenState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Car/Details/Electrics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Car/Details/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Car/Details/GasTank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Car/Details/HeadLights.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Car/Details/Transmission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Car/Details/Wheel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Car/Details/WheelRadius.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Car/OptionalEquipment/ChargerSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Car/OptionalEquipment/Fridge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Car/OptionalEquipment/USB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Car/StartCarException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Car/TypeOfCar/Car.java" afterDir="false" />
+    <list default="true" id="be59bf91-7983-4bbe-8f86-fa32532f2cf6" name="Changes" comment="Машина и акксессуары созданы">
+      <change afterPath="$PROJECT_DIR$/src/Car/Models/Camry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Car/Models/Dyna.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Car/Models/Hiance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Car/Models/Solara.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Car/OptionalEquipment/CruiseControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Car/OptionalEquipment/Roof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Car/TypeOfCar/Cabriolet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Car/TypeOfCar/CargoVan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Car/TypeOfCar/Sedan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Car/StartCarException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car/TypeOfCar/StartCarException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Car/TypeOfCar/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car/TypeOfCar/Car.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +43,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Car.Details" />
@@ -73,6 +64,14 @@
       <option name="presentableId" value="Default" />
       <updated>1661267882717</updated>
     </task>
+    <task id="LOCAL-00001" summary="Машина и акксессуары созданы">
+      <created>1661270368607</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661270368607</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -85,5 +84,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Машина и акксессуары созданы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Машина и акксессуары созданы" />
   </component>
 </project>

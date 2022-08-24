@@ -1,6 +1,6 @@
-package Car;
+package Car.TypeOfCar;
 
-public class StartCarException {
+public class StartCarException extends Throwable {
     public String messageTo;
 
     public StartCarException(String s) {

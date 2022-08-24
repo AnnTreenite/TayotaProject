@@ -35,5 +35,49 @@ public abstract class Car {
             }
         }
     }
-
+    public boolean checkWheels() {
+        if (wheels.length == 4) {
+            boolean wheelsIsOk = true;
+            for (Wheel wheel : wheels) {
+                if (wheel.isBroken()) {
+                    wheelsIsOk = false;
+                    break;
+                }
+            }
+            return wheelsIsOk;
+        } else {
+            return false;
+        }
+    }
+    public void start() throws StartCarException {
+        if (checkWheels() && gasTank.getVolume() > 0 && !electricsHealth.isBroken() && !engine.isBroken()) {
+            this.isMove = true;
+            System.out.println("Car is start");
+        } if (!checkWheels()) {
+            throw new StartCarException("Error: your wheels have a problem");
+        } if (gasTank.getVolume() <= 0) {
+            throw new StartCarException("Error: you need to top up your petrol");
+        } if (electricsHealth.isBroken()) {
+            throw new StartCarException("Error: you have problems with electronics");
+        } if (engine.isBroken()) {
+            throw new StartCarException("Error: your car has a broken engine");
+        }
+    }
+    public void stopTheCar() {
+        this.isMove = false;
+        System.out.println("Car is stopped");
+    }
+    public void headsLightsIsOn() {
+        if (!headLightsHealth.isBroken()) {
+            System.out.println("Headlight is ON");
+        }
+    }
+    public void switchWheel(int index, Wheel wheel) {
+        if (wheel.getWheelRadius() == carWheelRadius) {
+            wheels[index] = wheel;
+        }
+    }
+    public Wheel[] getWheels() {
+        return wheels;
+    }
 }

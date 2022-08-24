@@ -1,7 +1,7 @@
 package Car.Details;
 
 public class Electrics extends DetailWithBrokenState {
-    public Electrics(boolean isBroken) {
+    public Electrics() {
         super(false);
     }
 }

@@ -1,6 +1,6 @@
 package Car.Details;
 
-public abstract class GasTank extends Detail {
+public class GasTank extends Detail {
     private int volume;
     public GasTank() {
         this.volume = 0;

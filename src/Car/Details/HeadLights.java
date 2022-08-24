@@ -1,7 +1,7 @@
 package Car.Details;
 
-public abstract class HeadLights extends DetailWithBrokenState {
-    public HeadLights(boolean isBroken) {
+public class HeadLights extends DetailWithBrokenState {
+    public HeadLights() {
         super(false);
     }
 }

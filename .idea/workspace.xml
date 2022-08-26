@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be59bf91-7983-4bbe-8f86-fa32532f2cf6" name="Changes" comment="models of car">
-      <change afterPath="$PROJECT_DIR$/src/Runner.java" afterDir="false" />
+    <list default="true" id="be59bf91-7983-4bbe-8f86-fa32532f2cf6" name="Changes" comment="fix">
+      <change afterPath="$PROJECT_DIR$/src/Factory/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/CountryFactoryNotEqualException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/MachineFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Car/Details/Electrics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car/Details/Electrics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Car/Details/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car/Details/Engine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Car/Details/GasTank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car/Details/GasTank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Car/Details/HeadLights.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car/Details/HeadLights.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Car/Models/Camry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car/Models/Camry.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661355483315</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix">
+      <created>1661363432823</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661363432823</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,6 +94,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Машина и акксессуары созданы" />
     <MESSAGE value="models of car" />
-    <option name="LAST_COMMIT_MESSAGE" value="models of car" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
 </project>
